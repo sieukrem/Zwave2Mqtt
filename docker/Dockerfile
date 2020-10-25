@@ -1,6 +1,6 @@
 # ----------------
 # STEP 1:
-FROM sieukrem/open-zwave-fork:alpine-sha-b0afd4c60b38065fdbc57835cb3eb6035afcc00f as openzwave
+FROM sieukrem/open-zwave-fork:alpine-sha-b0afd4c60b38065fdbc57835cb3eb6035afcc00f as ozw
 
 # ----------------
 # STEP 2:
