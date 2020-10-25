@@ -1,6 +1,6 @@
 # ----------------
 # STEP 1:
-FROM chrisns/openzwave:alpine-1.6.1392 as ozw
+FROM sieukrem/open-zwave-fork:alpine-sha-b0afd4c60b38065fdbc57835cb3eb6035afcc00f as openzwave
 
 # ----------------
 # STEP 2:
@@ -40,7 +40,7 @@ RUN rm -rf \
 # STEP 3:
 FROM node:erbium-alpine
 
-LABEL maintainer="robertsLando"
+LABEL maintainer="sieukrem"
 
 RUN apk add --no-cache \
     libstdc++  \
